@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Golf Apparel - Professional Tournament & Corporate Solutions</title>
+    <meta name="description" content="Professional custom golf apparel for tournaments, corporate events, and teams. 72-piece minimum orders with 30-day lead time.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://goodboycustom.com/cdn/shop/files/Asset_7_cef0b683-d223-4a6c-8cd4-09b91561d7af.png?v=1737924385&width=600" alt="Good Boy Custom" class="logo-image">
+                    <span class="tagline">Branded Golf Apparel, Customized Solutions</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Custom Golf Apparel That Makes Your Event Unforgettable</h1>
+            <p class="hero-subtitle">Professional custom golf apparel for tournaments, corporate events, and teams. High-quality materials with expert customization from design to delivery.</p>
+            <a href="#product-form" class="cta-button primary">Start Customizing</a>
+        </div>
+        <div class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="products" class="product-showcase">
+        <div class="container">
+            <h2 class="section-title">Our Product Categories</h2>
+            <div class="product-categories">
+                <div class="category-card">
+                    <div class="category-icon">👔</div>
+                    <h3>Men's Apparel</h3>
+                    <p>Polos, Quarter-Zips, Hoodies</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">👕</div>
+                    <h3>Ladies Apparel</h3>
+                    <p>Polos, Pullovers, Athletic Wear</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⛳</div>
+                    <h3>Golf Accessories</h3>
+                    <p>Towels, Ball Markers, Divot Tools</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🧢</div>
+                    <h3>Headwear</h3>
+                    <p>Caps, Visors, Beanies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <h2 class="section-title">Our Simple 5-Step Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Submit Your Requirements</h3>
+                    <p>Use our detailed form to tell us about your event and needs</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Design Consultation</h3>
+                    <p>Our team contacts you within 24 hours to discuss your vision</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Mockup Review</h3>
+                    <p>Review and approve your custom design before production</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Production</h3>
+                    <p>High-quality manufacturing begins with careful attention to detail</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Delivery</h3>
+                    <p>Receive your custom apparel on time for your event</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Selection Form -->
+    <section id="product-form" class="form-section">
+        <div class="container">
+            <h2 class="section-title">Start Your Custom Order</h2>
+            <form id="customOrderForm" class="multi-step-form">
+                <!-- Progress Bar -->
+                <div class="progress-bar">
+                    <div class="progress-step active" data-step="1">
+                        <span>1</span>
+                        <label>Contact Info</label>
+                    </div>
+                    <div class="progress-step" data-step="2">
+                        <span>2</span>
+                        <label>Product Selection</label>
+                    </div>
+                    <div class="progress-step" data-step="3">
+                        <span>3</span>
+                        <label>Customization</label>
+                    </div>
+                    <div class="progress-step" data-step="4">
+                        <span>4</span>
+                        <label>Sizing & Quantity</label>
+                    </div>
+                    <div class="progress-step" data-step="5">
+                        <span>5</span>
+                        <label>Review</label>
+                    </div>
+                </div>
+
+                <!-- Step 1: Contact & Event Information -->
+                <div class="form-step active" id="step-1">
+                    <h3>Contact & Event Information</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="contactName">Contact Name *</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="eventName">Event Name *</label>
+                            <input type="text" id="eventName" name="eventName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Event Date *</label>
+                            <input type="date" id="eventDate" name="eventDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="deadline">Delivery Deadline *</label>
+                            <input type="date" id="deadline" name="deadline" required>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-next">Next Step</button>
+                </div>
+
+                <!-- Step 2: Visual Product Selection -->
+                <div class="form-step" id="step-2">
+                    <h3>Select Your Products</h3>
+                    <div id="selection-summary" class="selection-summary">0 products selected</div>
+                    
+                    <!-- Men's Apparel -->
+                    <div class="product-category">
+                        <h4>Men's Apparel</h4>
+                        <div class="product-grid" id="mens-apparel">
+                            <div class="product-card" data-product-id="perform-ace-black">
+                                <input type="checkbox" name="selected_products[]" value="perform-ace-black" id="perform-ace-black">
+                                <label for="perform-ace-black">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/PerformaceBlack_25244738-d25c-4604-ac2d-550e98839992.png?v=1737547630&width=533" alt="Perform-ACE Midnight Black Polo" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Perform-ACE Midnight Black Polo</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="perform-ace-navy">
+                                <input type="checkbox" name="selected_products[]" value="perform-ace-navy" id="perform-ace-navy">
+                                <label for="perform-ace-navy">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/PerformaceNavyTucked_28f8f4af-5a19-49d2-baf4-c9d421d61226.png?v=1738882516&width=533" alt="Perform-ACE Solid Navy Polo" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Perform-ACE Solid Navy Polo</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="perform-ace-white">
+                                <input type="checkbox" name="selected_products[]" value="perform-ace-white" id="perform-ace-white">
+                                <label for="perform-ace-white">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0604_6d346063-ec8a-4b24-be64-273c94238728.jpg?v=1738882565&width=533" alt="Perform-ACE White Polo" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Perform-ACE White Polo</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="waffle-hoodie">
+                                <input type="checkbox" name="selected_products[]" value="waffle-hoodie" id="waffle-hoodie">
+                                <label for="waffle-hoodie">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0580_9ec2e94b-a04c-48b1-8383-f4af0a886f43.jpg?v=1738881707&width=533" alt="Waffle Hoodie" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Waffle Hoodie</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="q-zip-pro">
+                                <input type="checkbox" name="selected_products[]" value="q-zip-pro" id="q-zip-pro">
+                                <label for="q-zip-pro">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0562-2_27c7b0c3-2c46-45d2-af91-8152a217d852.jpg?v=1738882087&width=533" alt="Q-Zip Pro" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Q-Zip Pro</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card custom-option" data-product-id="mens-custom-polo">
+                                <input type="checkbox" name="selected_products[]" value="mens-custom-polo" id="mens-custom-polo">
+                                <label for="mens-custom-polo">
+                                    <div class="custom-product-placeholder">
+                                        <div class="custom-icon">✨</div>
+                                        <div class="product-info">
+                                            <h3>Fully Custom Men's Polo</h3>
+                                        </div>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ladies Apparel -->
+                    <div class="product-category">
+                        <h4>Ladies Apparel</h4>
+                        <div class="product-grid" id="ladies-apparel">
+                            <div class="product-card" data-product-id="good-girl-black">
+                                <input type="checkbox" name="selected_products[]" value="good-girl-black" id="good-girl-black">
+                                <label for="good-girl-black">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/ScreenShot2025-04-10at3.23.01PM.png?v=1744323880&width=533" alt="Good Girl Black Polo" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Good Girl Black Polo</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="good-girl-navy">
+                                <input type="checkbox" name="selected_products[]" value="good-girl-navy" id="good-girl-navy">
+                                <label for="good-girl-navy">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/navypolowomens_9b7795e9-d689-4875-b214-10127e41d226.webp?v=1745532258&width=533" alt="Good Girl Navy Polo" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Good Girl Navy Polo</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="good-girl-hoodie">
+                                <input type="checkbox" name="selected_products[]" value="good-girl-hoodie" id="good-girl-hoodie">
+                                <label for="good-girl-hoodie">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0570_b27c6d6d-5f18-466d-977c-d7c72e90f977.jpg?v=1738882852&width=533" alt="Good Girl Waffle Hoodie" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Good Girl Waffle Hoodie</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card custom-option" data-product-id="ladies-custom-polo">
+                                <input type="checkbox" name="selected_products[]" value="ladies-custom-polo" id="ladies-custom-polo">
+                                <label for="ladies-custom-polo">
+                                    <div class="custom-product-placeholder">
+                                        <div class="custom-icon">✨</div>
+                                        <div class="product-info">
+                                            <h3>Fully Custom Ladies Polo</h3>
+                                        </div>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Golf Accessories -->
+                    <div class="product-category">
+                        <h4>Golf Accessories</h4>
+                        <div class="product-grid" id="golf-accessories">
+                            <div class="product-card" data-product-id="magnetic-towel">
+                                <input type="checkbox" name="selected_products[]" value="magnetic-towel" id="magnetic-towel">
+                                <label for="magnetic-towel">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0356_9531f50a-ff81-4bb1-9e08-98287b0290ab.png?v=1738911712&width=533" alt="Magnetic Towel" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Magnetic Towel</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="ball-marker">
+                                <input type="checkbox" name="selected_products[]" value="ball-marker" id="ball-marker">
+                                <label for="ball-marker">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_9593-2.png?v=1740177633&width=533" alt="Ball Marker" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Ball Marker</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="bluetooth-speaker">
+                                <input type="checkbox" name="selected_products[]" value="bluetooth-speaker" id="bluetooth-speaker">
+                                <label for="bluetooth-speaker">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/IMG_0324_de08e15e-4456-4de0-944f-01605f1f2596.png?v=1738911515&width=533" alt="Bluetooth Speaker" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Bluetooth Speaker</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="product-card" data-product-id="bag-tag">
+                                <input type="checkbox" name="selected_products[]" value="bag-tag" id="bag-tag">
+                                <label for="bag-tag">
+                                    <img src="https://goodboycustom.com/cdn/shop/files/BagTagFrontside.jpg?v=1744148172&width=533" alt="Bag Tag" class="product-image">
+                                    <div class="product-info">
+                                        <h3>Bag Tag</h3>
+                                    </div>
+                                    <div class="selection-overlay">
+                                        <span class="checkmark">✓</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-navigation">
+                        <button type="button" class="btn-prev">Previous</button>
+                        <button type="button" class="btn-next">Next Step</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Customization Requirements -->
+                <div class="form-step" id="step-3">
+                    <h3>Customization Requirements</h3>
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                            <label for="logoUpload">Upload Your Logo (Images or PDF)</label>
+                            <input type="file" id="logoUpload" name="logoUpload" accept="image/*,application/pdf,.pdf">
+                            <div id="logoPreview" class="logo-preview"></div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="customizationDetails">Customization Details</label>
+                            <textarea id="customizationDetails" name="customizationDetails" rows="4" placeholder="Describe your logo placement, colors, additional text, or special requirements..."></textarea>
+                        </div>
+                        <div class="form-group full-width" id="customPoloDetails" style="display: none;">
+                            <label for="customPoloSpecs">Custom Polo Specifications</label>
+                            <textarea id="customPoloSpecs" name="customPoloSpecs" rows="6" placeholder="Please provide detailed specifications for your custom polo design including:&#10;• Fabric preferences (cotton, poly-cotton blend, performance fabric, etc.)&#10;• Collar style (traditional, button-down, mandarin, etc.)&#10;• Sleeve length preferences&#10;• Fit requirements (slim, regular, relaxed)&#10;• Color specifications&#10;• Special features (moisture-wicking, UV protection, etc.)&#10;• Any other specific design requirements"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="logoPosition">Preferred Logo Position</label>
+                            <select id="logoPosition" name="logoPosition">
+                                <option value="">Select position</option>
+                                <option value="left-chest">Left Chest</option>
+                                <option value="right-chest">Right Chest</option>
+                                <option value="center-chest">Center Chest</option>
+                                <option value="back">Back</option>
+                                <option value="sleeve">Sleeve</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="logoColors">Logo Color Preferences</label>
+                            <input type="text" id="logoColors" name="logoColors" placeholder="e.g., Navy blue, white, gold">
+                        </div>
+                    </div>
+                    <div class="form-navigation">
+                        <button type="button" class="btn-prev">Previous</button>
+                        <button type="button" class="btn-next">Next Step</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Sizing & Quantities -->
+                <div class="form-step" id="step-4">
+                    <h3>Sizing & Quantities</h3>
+                    <div class="sizing-info">
+                        <p><strong>Minimum Order:</strong> 72 pieces total</p>
+                        <p><strong>Lead Time:</strong> 30 days from design approval</p>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="totalQuantity">Total Quantity *</label>
+                            <input type="number" id="totalQuantity" name="totalQuantity" min="72" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="sizingBreakdown">Size Breakdown</label>
+                            <textarea id="sizingBreakdown" name="sizingBreakdown" rows="3" placeholder="Please specify quantities for each size (S, M, L, XL, XXL)..."></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="specialRequests">Special Requests or Notes</label>
+                            <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Any additional requirements, packaging requests, or special instructions..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-navigation">
+                        <button type="button" class="btn-prev">Previous</button>
+                        <button type="button" class="btn-next">Review Order</button>
+                    </div>
+                </div>
+
+                <!-- Step 5: Review & Submit -->
+                <div class="form-step" id="step-5">
+                    <h3>Review Your Order</h3>
+                    <div id="orderSummary" class="order-summary">
+                        <!-- Order summary will be populated by JavaScript -->
+                    </div>
+                    <div class="form-navigation">
+                        <button type="button" class="btn-prev">Previous</button>
+                        <button type="submit" class="btn-submit">Submit My Requirements</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Trust & Credibility Section -->
+    <section class="trust-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="trust-features">
+                <div class="trust-item">
+                    <h3>Quality Guarantee</h3>
+                    <p>Premium materials and expert craftsmanship on every order</p>
+                </div>
+                <div class="trust-item">
+                    <h3>Professional Process</h3>
+                    <p>Streamlined workflow from design to delivery</p>
+                </div>
+                <div class="trust-item">
+                    <h3>On-Time Delivery</h3>
+                    <p>30-day lead time with guaranteed delivery dates</p>
+                </div>
+                <div class="trust-item">
+                    <h3>Minimum 72 Pieces</h3>
+                    <p>Perfect for tournaments and corporate events</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Golf Pro Custom</h3>
+                    <p>Professional custom golf apparel for tournaments, corporate events, and teams.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@golfprocustom.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Golf Pro Custom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="email-service.js"></script>
+    <script src="script.js"></script>
+    <script src="form-handler.js"></script>
+</body>
+</html>
