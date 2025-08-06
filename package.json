@@ -1,0 +1,13 @@
+{
+  "name": "custom-golf-apparel-form",
+  "version": "1.0.0",
+  "description": "Professional custom golf apparel order form",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["golf", "apparel", "custom", "order-form"],
+  "author": "Good Boy Custom",
+  "license": "MIT"
+}
